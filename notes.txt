@@ -9,6 +9,7 @@ lage sidekart for pc og  mobile.
 mangler mer bilder for produkter osv.
 lage print css og endre design.
 Forbedre meny. 
+Søk knapp.
 Skriv ordentlig tekst i alle sider(produkter, om , kontakt)
 osv......
 
