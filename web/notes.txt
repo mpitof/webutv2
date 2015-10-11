@@ -1,0 +1,15 @@
+------ Skriv notater her ---------------
+
+Lage Fav.icon
+Forbedre logo, bruke ord med en ikon. 
+velge 4/5 farger for hele websiden
+Lage bedre bannerbilde.
+lage rss.
+lage sidekart for pc og  mobile.
+mangler mer bilder for produkter osv.
+lage print css og endre design.
+Forbedre meny. 
+Skriv ordentlig tekst i alle sider(produkter, om , kontakt)
+osv......
+
+NB! ikke bruk inline stilark, ingen copy and paste fra andre nettsidene.
