@@ -1,6 +1,8 @@
 ------ Skriv notater her ---------------
 
 Lage Fav.icon
+====> dette er gjort, men kun i 16x16 og lagt til index.html
+
 Forbedre logo, bruke ord med en ikon. 
 velge 4/5 farger for hele websiden
 Lage bedre bannerbilde.
