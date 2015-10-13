@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Pære butikk hjem</title>
+  <link>index.html</link>
+  <description></description>
+  <item>
+    <title>Produkter</title>
+    <link>html/produkter.html</link>
+    <description></description>
+  </item>
+  <item>
+    <title>Om oss</title>
+    <link>html/om.html</link>
+    <description></description>
+  </item>
+  <item>
+    <title>Kontakt oss</title>
+    <link>html/kontakt.html</link>
+  </item>
+</channel>
+
+</rss>
