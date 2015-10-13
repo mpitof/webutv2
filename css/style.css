@@ -58,6 +58,40 @@ body{
 }
 
 
+/*Generell produktside css*/
+
+#seksjon-produkt-flexi {
+    width: 100%;
+	margin: 0%;
+	
+	display: -webkit-flex; /*Safari*/
+	-webkit-flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;	
+
+}
+
+
+.produktBilde {
+	width: 100%;
+}
+
+
+h2.produktOverskrift {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.6em;
+	
+}
+
+p.produktTekst {
+	font-size: 0.8em;
+}
+
+
 /* Mobile */
 @media only screen and (max-width:480px)
 {
@@ -155,6 +189,15 @@ body{
 	.clear{
 		clear:both;
 	}
+	
+	/*produktsider*/
+	.produkter-flexi {
+    border: 1px dotted #aaaaaa;
+    width: 90%;
+	padding: 5%;
+	margin: 0% 0% 5% 0%;
+	}
+	
 }
 /* Tablet */
 @media only screen and (min-width: 489px) and (max-width: 768px)
@@ -173,7 +216,7 @@ body{
 		height:105px;
 	}
 	nav{
-		float:right;
+> 		float:right;
 	    margin-top: 23px;
 		margin-right: 1em;
 	}
@@ -242,6 +285,16 @@ body{
 	.clear{
 		clear:both;
 	}
+	
+	/*produktsider*/
+	.produkter-flexi {
+	position:relative;
+    border: 1px dotted #aaaaaa;
+    width: 43.7%;
+	padding: 2%;
+	margin: 0% 1% 2% 1%;
+	}
+	
 }
 /* PC */
 @media only screen and (min-width:769px) 
@@ -327,4 +380,16 @@ body{
 	.clear{
 		clear:both;
 	}
+	
+	
+	/*produktsider*/
+	
+	.produkter-flexi {
+	position:relative;
+    border: 1px dotted #aaaaaa;
+    width: 27.0%;
+	padding: 2%;
+	margin: 0% 1% 2% 1%;
+	}
+	
 }
