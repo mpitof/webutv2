@@ -5,6 +5,7 @@
 	<script src="../js/script.js"></script>
 	<link rel="stylesheet" media="screen" href="../css/style.css">
 	<link rel="stylesheet" media="print" href="../css/print.css">
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon" sizes="16x16">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	</head>
@@ -17,7 +18,10 @@
 	</div>
 	<nav>
 		<div id="search">
-			<img src="../images/search-icon.png"></img>
+			<form method="get" action="http://www.google.com">
+			        <input type="text" name="search" placeholder="søk i Pære Butikk ..." size="21" maxlength="120"><input type="submit" value="search" hidden>
+			</form>
+			
 		</div>
 		<div id="menu-icon" onclick="showmenu()"></div>
 		<ul id="menu">
@@ -45,17 +49,17 @@
 		<p>©Pære Butikk 2015</p>
 		<div id="social-icons">
 			<span id="facebook">
-				<a href="" target="_blank">
+				<a href="http://facebook.com" target="_blank">
 					<img src="../images/fb-25px.png"></img>
 				</a>
 			</span>
 			<span id="twitter">
-				<a href="" target="_blank">
+				<a href="http://twitter.com" target="_blank">
 					<img src="../images/twitter-25px.png"></img>
 				</a>
 			</span>
 			<span id="rss">
-				<a href="" target="_blank">
+				<a href="pear.xml" target="_blank">
 					<img src="../images/rss-25px.png"></img>
 				</a>
 			</span>
