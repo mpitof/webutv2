@@ -43,6 +43,7 @@ nav a:hover{
 	color: #20286D;
 }
 
+
 #social-icons span a{
 		text-decoration:none;
 }
@@ -56,6 +57,15 @@ footer{
 }
 body{
 		border-top:25px solid #20286D;
+}
+article ul{
+	margin:30px;
+}
+article ul li{
+	margin-top:1em;
+}
+article h2{
+	margin-left:10px ;
 }
 
 
