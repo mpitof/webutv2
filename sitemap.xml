@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+	<loc>http://ask.hiof.no/~abdulsk/webprosjekt/index.html</loc>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/front-coverImg.jpg</image:loc> 
+    </image:image>
+</url>
+<url>
+	<loc>http://ask.hiof.no/~abdulsk/webprosjekt/html/produkter.html</loc>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/products/pearBook.jpg</image:loc> 
+	</image:image>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/products/pearMac.png</image:loc> 
+	</image:image>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/products/pearMac2.png</image:loc> 
+    </image:image>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/products/pearPhone.png</image:loc> 
+	</image:image>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/products/pearPhone2.jpg</image:loc> 
+	</image:image>
+	<image:image>
+		<image:loc>http://ask.hiof.no/~abdulsk/webprosjekt/images/products/pearPodNano.jpg</image:loc> 
+    </image:image>
+</url>
+<url>
+  <loc>http://ask.hiof.no/~abdulsk/webprosjekt/html/om.html</loc>
+</url>
+<url>
+  <loc>http://ask.hiof.no/~abdulsk/webprosjekt/html/kontakt.html</loc>
+</url>
+</urlset>

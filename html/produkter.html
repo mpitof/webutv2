@@ -5,6 +5,7 @@
 	<script src="../js/script.js"></script>
 	<link rel="stylesheet" media="screen" href="../css/style.css">
 	<link rel="stylesheet" media="print" href="../css/print.css">
+	<link rel="icon" href="../images/favicon.ico" type="image/x-icon" sizes="16x16">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	</head>
@@ -17,7 +18,10 @@
 	</div>
 	<nav>
 		<div id="search">
-			<img src="../images/search-icon.png"></img>
+			<form method="get" action="http://www.google.com">
+			        <input type="text" name="search" placeholder="Søk i Pære Butikk ..." size="21" maxlength="120"><input type="submit" value="search" hidden>
+			</form>
+			
 		</div>
 		<div id="menu-icon" onclick="showmenu()"></div>
 		<ul id="menu">
@@ -32,42 +36,43 @@
 	<div id="banner">
 	 
 	</div>
-	<h1>Produkter</h1>
 	<!-- Produkter med bilder her-->
+	<h1>Produkter</h1>
+	
 	<section id="seksjon-produkt-flexi">
     <article class="produkter-flexi" onclick="location.href='pearBook.html';" style="cursor: pointer;">
 	
-      <img class="produktBilde" src="../images/products/pearBook.jpg" />
+      <img class="produktBilde" src="../images/products/pearBook.png" alt="pearBook" />
       <h2 class="produktOverskrift">pearBook</h2>
       <p class="produktTekst">Dette er nye pearBook. Det er den beste pearBooken vi har laget... noensinne.</p>
     </article>
 	
     <article class="produkter-flexi" onclick="location.href='pearMac.html';" style="cursor: pointer;">
-      <img class="produktBilde" src="../images/products/pearMac.png" />
+      <img class="produktBilde" src="../images/products/pearMac.jpg" alt="pearMac" />
       <h2 class="produktOverskrift">pearMac</h2>
       <p class="produktTekst">Med 100% raskere prosessor og 200% høyere pris, er dette den beste pearMacen vi har laget... noensinne.</p>
     </article>
     
     <article class="produkter-flexi" onclick="location.href='pearMac2.html';" style="cursor: pointer;">
-      <img class="produktBilde" src="../images/products/pearMac2.png" />
+      <img class="produktBilde" src="../images/products/pearMac2.png" alt="pearMac2" />
       <h2 class="produktOverskrift">pearMac 2</h2>
       <p class="produktTekst">Helt utrolig! Den er mye bedre enn pearMac. Vi har finansieringsordninger!</p>
     </article>
 	
     <article class="produkter-flexi" onclick="location.href='pearPhone.html';" style="cursor: pointer;">
-      <img class="produktBilde" src="../images/products/pearPhone.png" />
+      <img class="produktBilde" src="../images/products/pearPhone.png" alt="pearPhone" />
       <h2 class="produktOverskrift">pearPhone</h2>
       <p class="produktTekst">pearPhone er verdens beste telefon. Bli overbevist.</p>
     </article>
 	
     <article class="produkter-flexi" onclick="location.href='pearPhone2.html';" style="cursor: pointer;">
-      <img class="produktBilde" src="../images/products/pearPhone2.jpg" />
+      <img class="produktBilde" src="../images/products/pearPhone2.png" alt="pearPhone2" />
       <h2 class="produktOverskrift">pearPhone 2</h2>
       <p class="produktTekst">Trodde du at pearPhone var verdens beste telefon? Møt pearPhone 2.</p>
     </article>
 	
     <article class="produkter-flexi" onclick="location.href='pearPodNano.html';" style="cursor: pointer;">
-      <img class="produktBilde" src="../images/products/pearPodNano.jpg" />
+      <img class="produktBilde" src="../images/products/pearPodNano.png" alt="pearPodNano" />
       <h2 class="produktOverskrift">pearPod Nano</h2>
       <p class="produktTekst">For deg som ikke syntes at produkter kan bli små nok.</p>
     </article>
@@ -78,18 +83,18 @@
 		<p>©Pære Butikk 2015</p>
 		<div id="social-icons">
 			<span id="facebook">
-				<a href="" target="_blank">
-					<img src="../images/fb-25px.png"></img>
+				<a href="http://facebook.com" target="_blank">
+					<img src="../images/fb-25px.png" alt="facebook" />
 				</a>
 			</span>
 			<span id="twitter">
-				<a href="" target="_blank">
-					<img src="../images/twitter-25px.png"></img>
+				<a href="http://twitter.com" target="_blank">
+					<img src="../images/twitter-25px.png" alt="facebook" />
 				</a>
 			</span>
 			<span id="rss">
-				<a href="" target="_blank">
-					<img src="../images/rss-25px.png"></img>
+				<a href="pear.xml" target="_blank">
+					<img src="../images/rss-25px.png" alt="facebook" />
 				</a>
 			</span>
 		</div>
